@@ -7,41 +7,65 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = ShortIt
-build_property.RootNamespace = ShortIt
-build_property.ProjectDir = C:\Users\User\source\repos\codewars-2024-second-round-sn1wfy\ShortIt\ShortIt\
+build_property.RootNamespace = ShortIT
+build_property.RootNamespace = ShortIT
+build_property.ProjectDir = C:\Users\User\source\repos\codewars-2024-second-round-sn1wfy\ShortIt\ShortIT\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\User\source\repos\codewars-2024-second-round-sn1wfy\ShortIt\ShortIt
+build_property.MSBuildProjectDirectory = C:\Users\User\source\repos\codewars-2024-second-round-sn1wfy\ShortIt\ShortIT
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/User/source/repos/codewars-2024-second-round-sn1wfy/ShortIt/ShortIt/Views/Home/Index.cshtml]
+[C:/Users/User/source/repos/codewars-2024-second-round-sn1wfy/ShortIt/ShortIT/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/codewars-2024-second-round-sn1wfy/ShortIt/ShortIt/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/User/source/repos/codewars-2024-second-round-sn1wfy/ShortIt/ShortIt/Views/Shared/Error.cshtml]
+[C:/Users/User/source/repos/codewars-2024-second-round-sn1wfy/ShortIt/ShortIT/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/codewars-2024-second-round-sn1wfy/ShortIt/ShortIt/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/User/source/repos/codewars-2024-second-round-sn1wfy/ShortIt/ShortIT/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/codewars-2024-second-round-sn1wfy/ShortIt/ShortIt/Views/_ViewImports.cshtml]
+[C:/Users/User/source/repos/codewars-2024-second-round-sn1wfy/ShortIt/ShortIT/Views/Url/DashBoard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXJsXERhc2hCb2FyZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/codewars-2024-second-round-sn1wfy/ShortIt/ShortIT/Views/Url/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXJsXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/codewars-2024-second-round-sn1wfy/ShortIt/ShortIT/Views/Url/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXJsXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/codewars-2024-second-round-sn1wfy/ShortIt/ShortIT/Views/Url/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXJsXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/codewars-2024-second-round-sn1wfy/ShortIt/ShortIT/Views/Url/ShortenUrl.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXJsXFNob3J0ZW5VcmwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/codewars-2024-second-round-sn1wfy/ShortIt/ShortIT/Views/User/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/codewars-2024-second-round-sn1wfy/ShortIt/ShortIT/Views/User/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/codewars-2024-second-round-sn1wfy/ShortIt/ShortIT/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/codewars-2024-second-round-sn1wfy/ShortIt/ShortIt/Views/_ViewStart.cshtml]
+[C:/Users/User/source/repos/codewars-2024-second-round-sn1wfy/ShortIt/ShortIT/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/codewars-2024-second-round-sn1wfy/ShortIt/ShortIt/Views/Shared/_Layout.cshtml]
+[C:/Users/User/source/repos/codewars-2024-second-round-sn1wfy/ShortIt/ShortIT/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-2vbcwlu05v
+build_metadata.AdditionalFiles.CssScope = b-9y5y3uydkx

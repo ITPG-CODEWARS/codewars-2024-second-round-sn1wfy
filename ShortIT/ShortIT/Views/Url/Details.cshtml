@@ -1,0 +1,74 @@
+﻿@model ShortIT.Entity.ShortenedURL
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-lg mx-auto" style="max-width: 600px;">
+        <div class="card-header bg-primary text-white text-center">
+            <h2>URL Details</h2>
+        </div>
+        <div class="card-body">
+            <h5 class="card-title text-center mb-4">Shortened URL Information</h5>
+            <dl class="row">
+
+                <dt class="col-sm-4 text-right font-weight-bold">Original URL</dt>
+                <dd class="col-sm-8">
+                    <a href="@Model.Url" target="_blank">@Html.DisplayFor(model => model.Url)</a>
+                </dd>
+
+                <dt class="col-sm-4 text-right font-weight-bold">Shortened URL</dt>
+                <dd class="col-sm-8">
+                    <a href="@($"{Context.Request.Scheme}://{Context.Request.Host}/{Model.ID}")" target="_blank">
+                        @($"{Context.Request.Scheme}://{Context.Request.Host}/{Model.ID}")
+                    </a>
+                </dd>
+
+                <dt class="col-sm-4 text-right font-weight-bold">Times opened</dt>
+                <dd class="col-sm-8">
+                    <a target="_blank">@Html.DisplayFor(model => model.OpenedTimes)</a>
+                </dd>
+                <dt class="col-sm-4 text-right font-weight-bold">MaxUses</dt>
+                @if (Model.MaxUses == 0)
+                {
+                    <dd class="col-sm-8">
+                        <a target="_blank">Unlimited</a>
+                    </dd>
+                }
+                else
+                {
+                    <dd class="col-sm-8">
+                        <a target="_blank">@Html.DisplayFor(model => model.MaxUses)</a>
+                    </dd>
+                }
+                
+            </dl>
+        </div>
+        <div class="card-footer text-center">
+            <a asp-action="Edit" asp-route-id="@Model.ID" class="btn btn-warning btn-lg me-3">Edit</a>
+            <a asp-action="DashBoard" class="btn btn-secondary btn-lg">Back to List</a>
+        </div>
+    </div>
+</div>
+
+<!-- Additional Styling -->
+<style>
+    .card {
+        border-radius: 8px;
+    }
+
+    .card-header {
+        font-size: 1.5rem;
+    }
+
+    .card-title {
+        font-size: 1.2rem;
+        color: #333;
+    }
+
+    dl.row dt {
+        font-weight: 600;
+        color: #555;
+    }
+</style>
